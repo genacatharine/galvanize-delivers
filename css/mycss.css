@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Freckle+Face|Permanent+Marker');
+h1 {
+  font-family: 'Freckle Face', bold;
+}
+nav{
+  background-color: rgb(41, 221, 107)
+}
+
+footer {
+  background-color: rgb(41, 221, 107)
+}
+
+.addbtn {
+  font-size: 13px;
+}
+
+.menu {
+  font-size: 22px;
+  text-align: left;
+
+}
+
+.centeredh1 {
+  text-align: center;
+  padding-top: 50px;
+  text-weight: bold;
+  color: white;
+}
+
+
+.centeredh2 {
+  text-align: center;
+  color: brown;
+  font-size: 175%;
+}
+
+.paragraph {
+  text-align: center;
+  font-size: 14px;
+}
+
+#otherp {
+  text-align: left;
+}
+
+.orderform {
+  font-size: 22px;
+}
+
+.btn {
+  margin: 0 auto;
+}
+
+.order {
+  font-size: 22px;
+
+}
+#order {
+float: right;
+}
+
+.parallax-container {
+  background-image: url("../img/tiki.jpg");
+  background-size: cover;
+  background-repeat: none;
+  height: 300px;
+}
+/*#inputForm {
+  float: right;
+}*/
