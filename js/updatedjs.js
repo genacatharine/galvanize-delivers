@@ -92,5 +92,24 @@ $(document).ready(() => {
     // console.log("formatPrice price is", price)
     return '$' + price.toFixed(2)
   }
+  // $('#placeorderbtn').click((event) => {
+    //this is so the page doesn't fly up to the top
+    // $("form").submit(function(){
+    // alert("Submitted");
+    $('.modal').modal({
+      ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
+      alert("Ready");
+      console.log(modal, trigger);
+    },
+    complete: function() { alert('Closed'); } // Callback for Modal close
+    })
+// });
+    // event.preventDefault()
+    // let card = $(event.target).parent().parent()
+    // let price = card.find('.price').text()
+    // let title = card.find('.card-title').text()
+    // var item = {price, title}
+    // addToCart(item)
 
-})
+
+  })
